@@ -1,0 +1,25 @@
+# Ambientes virtuais e caches Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Dependencias locais do Appium
+node_modules/
+
+# Relatorios e logs de execucao
+results/
+/output.xml
+/log.html
+/report.html
+*.log
+
+# Configuracoes locais e arquivos de editor
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
